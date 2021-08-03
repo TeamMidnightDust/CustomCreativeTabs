@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "customtabs",
+  "version": "${version}",
+
+  "name": "CustomTabs",
+  "description": "Allows adding creative tabs via simple .properties files!",
+  "authors": [
+    "Motschen",
+    "TeamMidnightDust"
+  ],
+  "contact": {
+    "homepage": "https://www.midnightdust.eu/",
+    "sources": "https://github.com/TeamMidnightDust/CustomTabs",
+    "issues": "https://github.com/TeamMidnightDust/CustomTabs/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/customtabs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "eu.midnightdust.customtabs.CustomTabs"
+    ]
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jAGnWYHm3r",
+        "modmenu.website": "https://www.midnightdust.eu/"
+      }
+    }
+  }
+}
